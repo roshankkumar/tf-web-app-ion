@@ -31,7 +31,7 @@ variable "Subnet-Private-AzC-CIDR" {
 }
 variable "key_name" {
   #default     = "KeyPair-Ohio"
-  default     = "kp"
+  default     = "kp-new.pem"
   description = "the ssh key to use in the EC2 machines"
 }
 #variable "route53_public_dns_name" {
